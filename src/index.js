@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Add these lines to your index.html or here to import the fonts
+const fontLinks = document.createElement('style');
+fontLinks.textContent = `
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap');
+`;
+document.head.appendChild(fontLinks);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
