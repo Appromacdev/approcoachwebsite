@@ -5,7 +5,7 @@ import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import { GlobalStyles } from './styles/GlobalStyles';
 import styled, { keyframes } from 'styled-components';
-import { FaCog, FaTimes } from 'react-icons/fa';
+import { FaCog } from 'react-icons/fa';
 
 // Preloader Animation
 const rotate = keyframes`
